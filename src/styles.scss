@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 body{
     position: absolute;
@@ -13,12 +13,29 @@ body{
 
     text-align: center;
 
-    font-family: 'PT Serif', serif;
-
+    font-family: 'Roboto', sans-serif;
+    
+    h1, h6{
+        font-weight: 300;
+    }
+    
     h1{
         margin: 0;
         font-size: 3em;
         letter-spacing: 5px;
+    }
+    
+    h6{
+        margin: 0;
+
+        a{
+            color: white;
+        }
+    }
+    
+    #header{
+        padding: 15px;
         background: rgba(0,0,0,0.3)
+
     }
 }
